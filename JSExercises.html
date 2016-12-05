@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        JavaScript Exercises
+    </header>
+    <!--Question 1-->
+    <div>
+        <p>
+            1. Write a JavaScript program to display the current day and time.
+        </p>
+        <input type="button" onclick="Question1()" value="Run Question 1" />
+        <p>
+            Today is: <span id="DayOfWeek"></span>
+        </p>
+        <p>
+            Current Time is: <span id="CurrentTime"></span>
+        </p>
+    </div>
+    <!--Question 2-->
+    <div>
+        <p>
+            2. Write a JavaScript program to print the contents of the current window.
+        </p>
+        <input type="button" onclick="Question2()" value="Run Question 2" />
+    </div>
+    <!--Question 3-->
+    <div>
+        <p>
+            3. Get the current date
+        </p>
+        <input type="button" onclick="Question3()" value="Run Question 3" />
+        <p>
+            Current Date: <span id="CurrentDate"></span>
+        </p>
+    </div>
+    <!--Question 4-->
+    <div>
+        <p>
+            4. Display area of a triangle with sides 5,6,7.
+        </p>
+        <input type="button" onclick="Question4()" value="Run Question 4" />
+        <p>
+            Triangle Area: <span id="AreaTriangle567"></span>
+        </p>
+    </div>
+    <!--Question 5-->
+    <div>
+        <p>
+            5. Rotate the string 'w3resource' in right direction by periodically removing one letter from the end of the string and attaching it to the front.
+        </p>
+        <p>
+            <span id="Q5String" onmouseover = "Question5(1)" onmouseout="Question5(2)">w3resource </span>
+        </p>
+    </div>
+    <!--Question 6-->
+    <div>
+        <p>
+            6. Determine whether a given year is a leap year in the Gregorian calendar.
+        </p>
+            <input id="IsLeapYear" type="text" placeholder="Enter a year" />
+            <input type="button" onclick="Question6()" value="Run Question 6" />
+        <p>
+            <span id="Q6Span"></span>
+        </p>
+    </div>
+    <!--Question 7-->
+    <div>
+        <p>
+            7. Find 1st January that will be a Sunday between 2014 and 2050.
+        </p>
+        <input type="button" onclick="Question7()" value="Run Question 7" />
+        <p>
+            <span id="Q7Span"></span>
+        </p>
+    </div>
+    <!--Question 8-->
+    <div>
+        <p>
+            8. Guess a number 1-10
+        </p>
+            <input id="UserGuess" type="text" placeholder="Guess a number 1-10" />
+            <input type="button" onclick="Question8()" value="Run Question 8" />
+        <p>
+            <span id="Q8Span"></span>
+        </p>
+    </div>
+    <!--Question 9-->
+    <div>
+        <p>
+            9. How many days until next Christmas.
+        </p>
+        <p>
+            <input type="button" onclick="Question9()" value="Run Question 9" />
+        </p>
+        <p>
+            <span id="Q9Span"></span>
+        </p>
+    </div>
+    <!--Question 10-->
+    <div>
+        <p>
+            10. Calculate multiplication and division of two numbers (input from user).
+        </p>
+        <p>
+            <input id="Operand1" type="text" placeholder="Operand 1" />
+            <input id="Operand2"  type="text" placeholder="Operand 2" />
+        </p>
+        <p>
+            <input type="button" onclick="Question10(1)" value="Multiply" />
+            <input type="button" onclick="Question10(2)" value="Divide" />
+        </p>
+        <p>
+            The Result Is: <span id="Q10Span"></span>
+        </p>
+    </div>
+    <!--Question 11-->
+    <div>
+        <p>
+            11. Convert temperatures to and from celsius, fahrenheit.
+        </p>
+        <p>
+            <input type="text" id="Temp" placeholder="Enter Temperature" />
+            <input id="CTemp" type="radio" name="temp-unit" value="C" checked="checked"/>Celcius
+            <input id="FTemp" type="radio" name="temp-unit" value="F" />Fahrenheit<br />
+            <input type="button" id="ConvertTemp" value="Convert Temperature" onclick="Question11()" />
+        </p>
+        <p>
+            That is: <span id="Q11Span"></span>
+        </p>
+    </div>
+    <div>
+        <p>
+            12. Get the website URL.
+        </p>
+        <p>
+            <input type="button" onclick="Question12()" value="Run Question 12" />
+        </p>
+        <p>
+            The website URL is: <span id="Q12Span"></span>
+        </p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
